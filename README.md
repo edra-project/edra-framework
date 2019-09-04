@@ -48,7 +48,7 @@ If you do not already have an AWS account, you should follow these steps to esta
 * To obtain all required files for the demonstration application, clone this repository: 
 
    ```
-       $ git clone https://github.com/kingmouf/EDRA_demo.git $EDRA_DEMO_DIR  
+       $ git clone https://github.com/edra-project/edra-framework.git $EDRA_DEMO_DIR  
    ```
 By cloning the repository you will find in the *edra_demo* folder the following files:
   * host : this is the application executable
