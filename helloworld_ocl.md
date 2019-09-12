@@ -1,4 +1,5 @@
-Run "hello world" XRT example:
+# Run "hello world" XRT example on an AWS AMI with installed XRT
+
 1. Connect to your Ubuntu AMI
 2. sudo su
 3. export AWS_FPGA_REPO_DIR=/home/ubuntu/aws-fpga/
@@ -9,4 +10,10 @@ Run "hello world" XRT example:
 8. source $AWS_FPGA_REPO_DIR/sdaccel_runtime_setup.sh
 9. fpga-clear-local-image -S0 (optional)
 10. ./helloworld
+
+
+
+
+
+
 
