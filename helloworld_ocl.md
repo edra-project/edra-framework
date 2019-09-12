@@ -6,7 +6,7 @@
 4. export VIVADO_TOOL_VERSION=2018.3
 5. export AWS_PLATFORM=$AWS_PLATFORM_DYNAMIC_5_0 
 6. cd $AWS_FPGA_REPO_DIR/SDAccel/examples/aws/helloworld_ocl_runtime/2018.3/
-7. source $AWS_FPGA_REPO_DIR/sdaccel_setup.sh
+7. source $AWS_FPGA_REPO_DIR/sdaccel_setup.sh # dont bother about the error that the XILINX_SDK variable is not set.
 8. source $AWS_FPGA_REPO_DIR/sdaccel_runtime_setup.sh
 9. fpga-clear-local-image -S0 (optional)
 10. ./helloworld
