@@ -22,6 +22,8 @@ sudo apt-get install ocl-icd-dev ocl-icd-libopencl1 opencl-headers ocl-icd-openc
 sudo mkdir -p /etc/OpenCL/vendors/
 
 # 2. Install AWS CLI
+sudo yum install python-pip
+
 sudo pip install awscli --upgrade
 
 aws configure
