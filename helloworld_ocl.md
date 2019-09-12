@@ -1,4 +1,4 @@
-# Run "hello world" XRT example on an AWS AMI with installed XRT
+# Run "hello world" XRT example on an AWS AMI with XRT installed
 
 1. Connect to your Ubuntu AMI
 2. sudo su
