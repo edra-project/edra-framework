@@ -1,5 +1,5 @@
 Run "hello world" XRT example:
-1. Connect to ubuntu@ec2-3-92-204-8.compute-1.amazonaws.com
+1. Connect to your Ubuntu AMI
 2. sudo su
 3. export AWS_FPGA_REPO_DIR=/home/ubuntu/aws-fpga/
 4. export VIVADO_TOOL_VERSION=2018.3
