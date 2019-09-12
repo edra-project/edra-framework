@@ -23,6 +23,7 @@ sudo mkdir -p /etc/OpenCL/vendors/
 
 # 2. Install AWS CLI
 sudo pip install awscli --upgrade
+
 aws configure
 
 # 3. Install XRT
