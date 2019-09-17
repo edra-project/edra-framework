@@ -16,7 +16,7 @@ sudo mkdir -p /etc/OpenCL/vendors/
 
 # 2. Install AWS CLI
 ````
-sudo yum install python-pip
+sudo apt-get install python-pip
 sudo pip install awscli --upgrade
 aws configure
 ````
