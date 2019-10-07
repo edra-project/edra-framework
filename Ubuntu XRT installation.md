@@ -27,7 +27,7 @@ aws configure
 # 3. Install XRT
 ````
 sudo su
-apt-get install git
+apt-get install git 
 git clone http://www.github.com/aws/aws-fpga.git $AWS_FPGA_REPO_DIR
 export AWS_FPGA_REPO_DIR=/home/ubuntu/aws-fpga
 cd $AWS_FPGA_REPO_DIR
