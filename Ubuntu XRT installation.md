@@ -27,7 +27,7 @@ aws configure
 # 3. Install XRT
 ````
 sudo su
-apt-install git
+apt-get install git
 git clone http://www.github.com/aws/aws-fpga.git $AWS_FPGA_REPO_DIR
 cd $AWS_FPGA_REPO_DIR
 source sdaccel_setup.sh #dont bother about the error that the XILINX_SDK variable is not set.
