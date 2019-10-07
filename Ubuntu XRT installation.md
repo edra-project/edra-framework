@@ -29,6 +29,7 @@ aws configure
 sudo su
 apt-get install git
 git clone http://www.github.com/aws/aws-fpga.git $AWS_FPGA_REPO_DIR
+export AWS_FPGA_REPO_DIR=/home/ubuntu/aws-fpga
 cd $AWS_FPGA_REPO_DIR
 source sdaccel_setup.sh #dont bother about the error that the XILINX_SDK variable is not set.
 mkdir $SDACCEL_DIR/Runtime
