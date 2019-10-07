@@ -1,4 +1,4 @@
-# Installing the XRT 2018.3 RC3 Patch 2 on a Ubuntu AWS AMI
+# Installing the XRT 2018.3 RC3 Patch 2 on a Ubuntu 18.04 AWS AMI
 First launch an Ubuntu AWS AMI from the link below on a <b>f1.2xlarge</b> machine:
 ````
 https://aws.amazon.com/marketplace/pp/B07CQ33QKV
