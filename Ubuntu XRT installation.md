@@ -30,14 +30,14 @@ sudo su
 apt-get install git 
 git clone http://www.github.com/aws/aws-fpga.git $AWS_FPGA_REPO_DIR
 export AWS_FPGA_REPO_DIR=/home/ubuntu/aws-fpga
+export XRT_RELEASE_TAG=2018.3_RC5 # Substitute XRT_RELEASE_TAG from https://github.com/aws/aws-fpga/blob/master/SDAccel/docs/XRT_installation_instructions.md
 cd $AWS_FPGA_REPO_DIR
 source sdaccel_setup.sh #dont bother about the error that the XILINX_SDK variable is not set.
-mkdir $SDACCEL_DIR/Runtime
 cd $SDACCEL_DIR/Runtime
-export XRT_PATH="${SDACCEL_DIR}/Runtime/XRT_2018.3.3.2"
-git clone http://www.github.com/Xilinx/XRT.git -b 2018.3.3.2 ${XRT_PATH}
+export XRT_PATH="${SDACCEL_DIR}/Runtime/${XRT_RELEASE_TAG}"
+git clone http://www.github.com/Xilinx/XRT.git -b ${XRT_RELEASE_TAG} ${XRT_PATH}
 cd ${XRT_PATH}
-sudo ./src/runtime_src/tools/scripts/xrtdeps.sh
+./src/runtime_src/tools/scripts/xrtdeps.sh
 cd build
 ./build.sh
 cd Release
