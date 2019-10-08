@@ -1,4 +1,4 @@
-# Installing the XRT 2018.3 RC3 Patch 2 on a Ubuntu 18.04 AWS AMI
+# Installing the XRT 2019.1_RC2 on a Ubuntu 18.04 AWS AMI
 First launch an Ubuntu AWS AMI from the link below on a <b>f1.2xlarge</b> machine:
 ````
 https://aws.amazon.com/marketplace/pp/B07CQ33QKV
@@ -30,7 +30,7 @@ sudo su
 apt-get install git 
 git clone http://www.github.com/aws/aws-fpga.git $AWS_FPGA_REPO_DIR
 export AWS_FPGA_REPO_DIR=/home/ubuntu/aws-fpga
-export XRT_RELEASE_TAG=2018.3_RC5 # Substitute XRT_RELEASE_TAG from https://github.com/aws/aws-fpga/blob/master/SDAccel/docs/XRT_installation_instructions.md
+export XRT_RELEASE_TAG=2019.1_RC2 # Substitute XRT_RELEASE_TAG from https://github.com/aws/aws-fpga/blob/master/SDAccel/docs/XRT_installation_instructions.md
 cd $AWS_FPGA_REPO_DIR
 source sdaccel_setup.sh #dont bother about the error that the XILINX_SDK variable is not set.
 cd $SDACCEL_DIR/Runtime
@@ -41,6 +41,6 @@ cd ${XRT_PATH}
 cd build
 ./build.sh
 cd Release
-apt install --reinstall ./xrt_201830.2.1.0_18.04-xrt.deb
-apt install --reinstall ./xrt_201830.2.1.0_18.04-aws.deb
+apt install --reinstall ./xrt_201910.2.2.0_18.04-xrt.deb
+apt install --reinstall ./xrt_201910.2.2.0_18.04-aws.deb
 ````
