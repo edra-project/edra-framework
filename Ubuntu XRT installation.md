@@ -1,8 +1,9 @@
 # Installing the XRT 2019.1_RC2 on a Ubuntu 18.04 AWS AMI
 First launch an Ubuntu AWS AMI from the link below on a <b>f1.2xlarge</b> machine:
 ````
-https://aws.amazon.com/marketplace/pp/B07CQ33QKV
+https://aws.amazon.com/marketplace/pp/B07C45M889
 ````
+The AMI uses Ubuntu 16.04, so make sure to update it to 18.04 before proceeding to the next step.
 
 # 1. Install latest packages
 ````
